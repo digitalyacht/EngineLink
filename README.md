@@ -1,33 +1,33 @@
-# iKonvert
+# EngineLink
 
-Welcome to our iKonvert Developer's Guide (SDK) on GitHub. This guide is intended to help developers quickly get to grips with our iKonvert NMEA2000 Gateway and implement it within their Desktop applications or embedded hardware designs.
+Welcome to our EngineLink repository on GitHub. Here we will post the latest firmware updates, useful information, configuration files, application notes and any other information that we think will be useful to EngineLink users.
 <br>
-<img src="https://github.com/digitalyacht/iKonvert/blob/master/Images/iKonvert_USB_Hi_Res.jpg" width=70%>
+<img src="https://github.com/digitalyacht/enginelink/blob/master/Images/EngineLink_with_cable.jpg" width=70%>
 <br>
-The iKonvert NMEA2000 Gateway is designed to allow an Application Developer or Equipment Manufacturer to support bi-directional communication with an NMEA2000 network, through simple serial messages. Any individual or company that wishes to integrate iKonvert will need as a minimum the NMEA2000 Appendix A+B which is available from [http://nmea.org](http://nmea.org) for both NMEA members and non-members.
-
-<img src="https://github.com/digitalyacht/iKonvert/blob/master/Images/iKonvert_Tool.gif" width=70%>
+The EngineLink NMEA2000 Engine Monitor is designed to provide an easy way to display data from an Engine which has an NMEA 2000 interface. This small black box, plugs in to an NMEA 2000 network and creates its own Wireless Network that any modern mobile device can connect to. Then just using a web browser (no special apps) EngineLink produces real time web pages of engine gauges, showing the state of the engine and other critical devices such as; Fuel tanks, Batteries, Trim tabs and Jack Plates.
+<br>
+<img src="https://github.com/digitalyacht/enginelink/blob/master/Images/Gauges_Single_Light.png" width=70%>
+<br>
+Supporting single or dual engines and with a light or dark background option, EngineLink's modern and clear dashboard displays provide a great diagnostic tool for engine installers, boat builders, etc. and for the boat owner, allows a phone or tablet to become a powerful wireless repeater station, that can view the engine status, anywhere onboard the boat.
+<br>
+<img src="https://github.com/digitalyacht/enginelink/blob/master/Images/Gauges_Dual_Dark.png" width=70%>
+<br>
+EngineLink also supports the new generation of electric engines that are quickly establishing themselves in the market. Initially, with no official Electric Propulsion PGNs from the NMEA Organistation, manufacturers like Bellmarine, Torqeedo and Vetus had to communicate/map the state of their electric engine using the existing combustion engine PGNs. EngineLink already supports this data mapping, and what is more, will be the first product to support the new official NMEA 2000 Electric Propulsion PGNs that were just published in February 2023. 
+<br>
+<img src="https://github.com/digitalyacht/enginelink/blob/master/Images/Gauges_Dual_Dark.png" width=70%>
+<br>
+We expect to release an "Electric Propulsion Service Pack" update in the next few weeks, which will allow electric engine manufacturers to test their implementations of these new Electric Propulsion PGNs.
 
 Included in this repository are:-
 
-*1.  Windows executable of the iKonvert Command Reference App (V1.30) so you can start playing straight away*
+*1.  EngineLink Dealer Information Document*
 
-*2.  iKonvert Command Reference App source code showing how to talk to the gateway*
+*2.  The latest EngineLink firmware XF file (V01.02)*
 
-*3.  STM Flash Tool for Firmware Updating (Windows only)*
+*3.  The latest EngineLink Web Interface XS file (V01.20.00)*
 
-*4.  The latest iKonvert firmware for STM32F103 based units (V2.65)*
+*4.  Latest User Manuals for EngineLink*
 
-*5.  The latest iKonvert firmware for STM32F476 based units (V3.08)*
+*5.  List of PGNs that EngineLink supports* 
 
-*6.  The iKonvert Developers Guide V1.04 (pdf)*
 
-*7.  Latest User Manuals for iKonvert ISO and USB units*
-
-*8.  Latest iKonvert USB Drivers for Windows OS* 
-
-No special libraries are required to integrate iKonvert and the USB version uses an FTDI chipset that has good driver support for all common operating systems. If you are using iKonvert with a MAC or LINUX based computer, the drivers should already be included in the OS kernel, but if you are using Windows please download the latest drivers and install either the 32bit or 64bit drivers as applicable to your computer.
-
-Our iKonvert will automatically take care of the complex NMEA 2000 bus management; claiming an address, respondng to other devices, etc. which significantly simplifies NMEA 2000 implementation. For developers that want an even quicker implementation path, iKonvert is compatible with the open source CANBoat library (coded in C) that translates the binary PGN data in to a more manageable JSON format. More information on using iKonvert with CANBoat [is available here.](https://github.com/canboat/canboat/wiki/ikonvert-serial)  
-
-A full developer's guide is provided in the [associated Wiki](https://github.com/digitalyacht/iKonvert/wiki).
