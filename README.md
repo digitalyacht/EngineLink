@@ -2,7 +2,7 @@
 
 Welcome to our EngineLink repository on GitHub. Here we will post the latest firmware updates, useful information, configuration files, application notes and any other information that we think will be useful to EngineLink users.
 <br>
-<img src="https://github.com/digitalyacht/enginelink/blob/master/Images/EngineLink_with_cable.jpg" width=70%>
+<img src="Images/EngineLink_with_cable.jpg" width=70%>
 <br>
 The EngineLink NMEA2000 Engine Monitor is designed to provide an easy way to display data from an Engine which has an NMEA 2000 interface. This small black box, plugs in to an NMEA 2000 network and creates its own Wireless Network that any modern mobile device can connect to. Then just using a web browser (no special apps) EngineLink produces real time web pages of engine gauges, showing the state of the engine and other critical devices such as; Fuel tanks, Batteries, Trim tabs and Jack Plates.
 <br>
