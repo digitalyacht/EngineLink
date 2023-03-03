@@ -14,7 +14,7 @@ Supporting single or dual engines and with a light or dark background option, En
 <br>
 EngineLink also supports the new generation of electric engines that are quickly establishing themselves in the market. Initially, with no official Electric Propulsion PGNs from the NMEA Organistation, manufacturers like Bellmarine, Torqeedo and Vetus had to communicate/map the state of their electric engine using the existing combustion engine PGNs. EngineLink already supports this data mapping, and what is more, will be the first product to support the new official NMEA 2000 Electric Propulsion PGNs that were just published in February 2023. 
 <br>
-<img src="Images/Gauges_Dual_Dark.png" width=70%>
+<img src="Images/Electric_Gauges_Single_Light.png" width=70%>
 <br>
 We expect to release an "Electric Propulsion Service Pack" update in the next few weeks, which will allow electric engine manufacturers to test their implementations of these new Electric Propulsion PGNs.
 
