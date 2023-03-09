@@ -30,12 +30,18 @@ Included in this repository are:-
 
 *1.  EngineLink Dealer Information Document*
 
-*2.  The latest EngineLink firmware XF file (V01.02)*
+*2.  The latest EngineLink firmware XF file (V01.03)*
 
-*3.  The latest EngineLink Web Interface XS file (V01.20.00)*
+*3.  The latest EngineLink Web Interface XS file (V01.30.00)*
 
 *4.  Latest User Manuals for EngineLink*
 
 *5.  List of PGNs that EngineLink supports* 
 
+To update an EngineLink, go to the SETTINGS page in the web interface and half way down this page, you will see the Firmware Update section where you can browse for and select the update file and then click the Upload Firmware button. Always upload the larger firmware XF first and then after the unit has rebooted, repeat the process for the XS file.
 
+<br>
+<img src="Images/Settings_Update+Info.png" width=70%>
+<br>
+
+ 
